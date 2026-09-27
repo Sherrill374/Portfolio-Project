@@ -11,6 +11,7 @@
   <header>
     <h1>My Portfolio Project</h1>
   </header>
+  <h1 id="welcomeMessge"Welcome!</h1>
   
   <nav>
     <ul>
@@ -111,10 +112,10 @@
 <script>
   // prompt the user for their name
   let userName = prompt("Please enter your name: ");
-  
-  //check user input
-                                                                                                                                                                                                          
-    
-  }
+// DIsplay personalized welcome message
+  document.getElementByID("welcomeMessage").textContent =
+      "Welcome, " + userName + "!";                                                                                                                                                                                                          
 </script>
+    
 </body>
+</html>  
